@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "local.demo.meine",
+  "name": "Demo Meine",
+  "version": "1.0.0",
+  "summary": "Nguồn mẫu đủ các loại nội dung.",
+  "defaultLocale": "vi",
+  "kinds": [
+    "video.movie",
+    "video.shortFilm",
+    "video.clip",
+    "audio.track",
+    "comic.series",
+    "text.book"
+  ],
+  "home": { "ref": "catalog/home.json" },
+  "endpoints": { "catalog": "catalog/" },
+  "theme": {
+    "accent": "#5BB8B0",
+    "background": "#E7F6F4",
+    "onBackground": "#1B3331",
+    "card": "#FFFFFF",
+    "radius": "soft"
+  },
+  "auth": { "mode": "none" },
+  "cacheTtl": 3600
+}

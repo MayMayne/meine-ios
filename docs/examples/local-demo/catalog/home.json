@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "title": "Nhà",
+  "subtitle": "Nguồn demo trên máy",
+  "sections": [
+    { "id": "cont", "type": "continue", "title": "Tiếp tục" },
+    {
+      "id": "hero",
+      "type": "hero",
+      "items": [
+        {
+          "ref": "movie:demo",
+          "kind": "video.movie",
+          "title": "Phim demo",
+          "artwork": "artwork/poster.jpg"
+        }
+      ]
+    },
+    {
+      "id": "listen",
+      "type": "rail",
+      "title": "Nghe",
+      "cardStyle": "square",
+      "items": [
+        {
+          "ref": "track:demo",
+          "kind": "audio.track",
+          "title": "Bài demo",
+          "artwork": "artwork/cover.jpg"
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "type": "rail",
+      "title": "Đọc",
+      "items": [
+        { "ref": "book:demo", "kind": "text.book", "title": "Truyện chữ demo" },
+        { "ref": "comic:demo", "kind": "comic.series", "title": "Truyện tranh demo" }
+      ]
+    },
+    { "id": "clips", "type": "feed", "title": "Ngắn", "feed": "for-you" }
+  ]
+}

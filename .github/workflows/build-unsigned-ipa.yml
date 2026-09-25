@@ -40,6 +40,7 @@ jobs:
             -project Meine.xcodeproj \
             -scheme Meine \
             -configuration Release \
+            -destination "generic/platform=iOS" \
             -archivePath "$RUNNER_TEMP/App.xcarchive" \
             -sdk iphoneos \
             $SIGNING \

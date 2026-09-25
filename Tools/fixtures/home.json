@@ -1,0 +1,42 @@
+{
+  "sourceId": "local.demo.meine",
+  "version": "1.0.0",
+  "title": "Trang chủ mẫu",
+  "themeOverrides": {
+    "primaryColor": "#8ECAE6",
+    "backgroundColor": "#F8FAFC"
+  },
+  "sections": [
+    {
+      "id": "banner",
+      "type": "carousel",
+      "title": "Nổi bật",
+      "aspectRatio": "16:9",
+      "autoScrollInterval": 4.0,
+      "items": [
+        {
+          "id": "item_001",
+          "contentType": "video",
+          "title": "Inception",
+          "subtitle": "2010",
+          "coverUrl": "poster.jpg",
+          "actionUrl": "meine://content/video/item_001",
+          "badge": "Hot"
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "type": "compact_list",
+      "title": "Nhạc",
+      "items": [
+        {
+          "id": "music_004",
+          "contentType": "music",
+          "title": "Chúng Ta Của Hiện Tại",
+          "actionUrl": "meine://content/music/music_004"
+        }
+      ]
+    }
+  ]
+}
